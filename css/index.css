@@ -48,3 +48,61 @@
   width: 48px;
   height: 48px;
 }
+.card-text {
+  width: 289px;
+  height: 58px;
+  text-align: center;
+  margin: 20px auto 20px auto !important;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  padding: 12px;
+  gap: 10px;
+  color: #3a3a3a;
+  margin: 32px auto 20px auto;
+}
+
+.card-1 {
+  background-color: #00993329;
+}
+.card-2 {
+  background-color: #00666d26;
+}
+.card-3 {
+  background-color: #9be42480;
+}
+.card-4 {
+  background-color: #4a006d26;
+}
+.card-5 {
+  background-color: #8261614d;
+}
+.card-6 {
+  background-color: #e0a62780;
+}
+.card-btn {
+  width: 215px;
+  height: 60px;
+  border-radius: 10px;
+  padding: 13px, 50px, 13px, 50px;
+  gap: 10px;
+  background-color: #00541c;
+  border: none;
+  margin: 20px auto 32px auto;
+}
+.card-btn-text {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27.24px;
+}
+.card {
+  border: 1px solid #00993363 !important;
+}
