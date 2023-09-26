@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 70.31px;
+  font-weight: 700;
+  font: Roboto;
+}
+h2 {
+  font-size: 48px;
+  line-height: 56.25px;
+  font-weight: 500;
+  font: Roboto;
+}
+
+:root {
+  /* fonts */
+  --open-sans-16: "Open Sans";
+  --font-poppins: Poppins;
+  --roboto-h2: Roboto;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --open-sans-16-size: 1rem;
+  --open-sans-24px-medium-size: 1.5rem;
+  --roboto-h2-size: 3rem;
+  --open-sans-buttons-size: 1.25rem;
+  --roboto-h1-size: 3.75rem;
+  --font-size-lg: 1.125rem;
+
+  /* Colors */
+  --pry-white: #fff;
+  --black: #3a3a3a;
+  --black-50: rgba(58, 58, 58, 0.5);
+  --primary-green: #00541c;
+  --color-forestgreen-100: rgba(0, 153, 51, 0.16);
+  --color-forestgreen-200: rgba(0, 153, 51, 0.39);
+  --color-forestgreen-300: rgba(0, 153, 51, 0.1);
+  --color-forestgreen-400: rgba(0, 153, 51, 0.05);
+  --color-darkolivegreen-100: #004015;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-21xl: 2.5rem;
+  --gap-xs: 0.75rem;
+  --gap-smi: 0.813rem;
+  --gap-xl: 1.25rem;
+
+  /* Paddings */
+  --padding-3xs: 0.625rem;
+  --padding-xl: 1.25rem;
+  --padding-31xl: 3.125rem;
+  --padding-6xs: 0.438rem;
+  --padding-smi: 0.813rem;
+  --padding-8xs: 0.313rem;
+  --padding-13xl: 2rem;
+  --padding-24xl: 2.688rem;
+  --padding-xs: 0.75rem;
+
+  /* Border radiuses */
+  --br-3xs: 0.625rem;
+  --br-xl: 1.25rem;
+  --br-8xs: 0.313rem;
+  --br-mini: 0.938rem;
+}
+
+.container {
+  width: 78.688rem;
+  margin: 0 auto;
+}
+
+.agric-nav-font {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #3a3a3a;
+}
+.normal_font {
+  font-size: 16px;
+  font: Open Sans;
+  font-weight: 400;
+  line-height: 28.83px;
+  color: #3a3a3a;
+}

@@ -1,0 +1,50 @@
+.sign-up {
+  width: 135px;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid #3a3a3a;
+  padding: 10px, 20px, 10px, 20px;
+  gap: 10px;
+  background-color: #ffffff;
+}
+.sign-up-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  font: Poppins;
+  color: #3a3a3a;
+}
+.sign-in {
+  width: 135px;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid #00541c;
+  padding: 10px, 20px, 10px, 20px;
+  gap: 10px;
+  background-color: #00541c;
+}
+.sign-in-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  font: Poppins;
+  color: #ffffff;
+}
+.solutions {
+  margin: 148px 0px 0px 0px;
+}
+.solution-head {
+  color: #00541c;
+}
+.solution-text {
+  margin-top: 16px;
+  width: 542px;
+  height: 58px;
+}
+.cards {
+  margin: 48px 0px 0px 0px !important;
+}
+.card-img-top {
+  width: 48px;
+  height: 48px;
+}
