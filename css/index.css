@@ -31,7 +31,7 @@
   color: #ffffff;
 }
 .solutions {
-  margin: 148px 0px 0px 0px;
+  margin: 148px 0px 148px 0px;
 }
 .solution-head {
   color: #00541c;
@@ -105,4 +105,21 @@
 }
 .card {
   border: 1px solid #00993363 !important;
+}
+.card:hover {
+  background-color: #e5f5eb;
+  border: 1px solid #009933 !important;
+}
+.custom-ul {
+  margin: 68px 0px 0px 0px;
+  text-align: left;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer-head {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
 }

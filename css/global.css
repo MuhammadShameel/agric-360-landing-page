@@ -92,3 +92,11 @@ h5 {
   line-height: 28.83px;
   color: #3a3a3a;
 }
+footer {
+  height: 417px;
+  width: 100%;
+  background-color: #00541c;
+}
+ol {
+  margin: 16px 0px 16px 0px !important;
+}
