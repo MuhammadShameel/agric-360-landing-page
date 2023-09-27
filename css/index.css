@@ -41,18 +41,18 @@
   padding: 89px 0px 113px 0px;
 }
 .horizontal_tab {
-  width: 377px;
-  height: 523px;
+  width: 367px;
+  height: 480px;
   position: absolute;
-  top: 140px;
-  left: 900px;
+  top: 180px;
+  left: 750px;
 }
 .vertical_tab {
-  width: 475px;
-  height: 309px;
+  width: 455px;
+  height: 280px;
   position: relative;
-  top: 160px;
-  left: 145px;
+  top: 183px;
+  left: 55px;
 }
 .hero_section_head {
   width: 700px;
