@@ -1,3 +1,4 @@
+/* navbar section  */
 .sign-up {
   width: 135px;
   height: 50px;
@@ -30,6 +31,16 @@
   font: Poppins;
   color: #ffffff;
 }
+
+/* hero section  */
+
+.hero-section {
+  width: 100%;
+  height: 658px;
+  background-color: #00541c;
+}
+
+/* solution section  */
 .solutions {
   margin: 148px 0px 148px 0px;
 }
