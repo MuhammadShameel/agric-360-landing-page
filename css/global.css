@@ -15,6 +15,12 @@ h2 {
   font-weight: 500 !important;
   font: Roboto !important;
 }
+h4 {
+  font-size: 32px !important;
+  line-height: 37.5px !important;
+  font-weight: 500 !important;
+  font: Roboto !important;
+}
 h5 {
   font-size: 24px !important;
   line-height: 36px !important;
