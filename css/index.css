@@ -194,9 +194,26 @@
 }
 .report-head {
   color: #00541c;
-  margin: 0 auto;
-}
+  margin: 148px auto 48px auto;
 
+  width: 968px;
+}
+.explore_btn {
+  width: 437px;
+  height: 70px;
+  border-radius: 10px;
+  padding: 7px, auto, 7px, auto;
+  gap: 10px;
+  border: none;
+  background-color: #00541c;
+  color: #ffffff;
+  margin: 40px auto 148px auto;
+}
+.explore_text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px;
+}
 /* Footer  */
 .footer-head {
   font-size: 16px;
