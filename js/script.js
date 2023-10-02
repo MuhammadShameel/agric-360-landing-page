@@ -28,6 +28,6 @@ new Chart("myChart", {
     ],
   },
   options: {
-    legend: { display: false },
+    legend: { display: true },
   },
 });

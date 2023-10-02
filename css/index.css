@@ -286,3 +286,12 @@
   font-weight: 700;
   line-height: 24px;
 }
+
+/* calender  */
+
+.carousel-indicators li {
+  background-color: #282828;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
