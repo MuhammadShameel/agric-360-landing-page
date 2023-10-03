@@ -1,0 +1,9 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+  .navbar-nav {
+    gap: 1 !important;
+  }
+  .nav-link {
+    font-size: 11px !important;
+    gap: 0 !important;
+  }
+}
