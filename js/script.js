@@ -31,3 +31,49 @@ new Chart("myChart", {
     legend: { display: true },
   },
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  var calendarEl = document.getElementById("calendar");
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+    initialView: "dayGridMonth", // Change view as needed
+    events: [
+      {
+        title: "Event 1",
+        start: "2023-10-01",
+      },
+      {
+        title: "Event 2",
+        start: "2023-10-15",
+      },
+      // Add more events as needed
+    ],
+  });
+  calendar.render();
+});
+
+const slides = document.querySelectorAll(".slide");
+const buttons = document.querySelectorAll(".slider-button");
+let currentSlide = 0;
+
+function showSlide(index) {
+  slides.forEach((slide, i) => {
+    if (i === index) {
+      slide.classList.add("active");
+      buttons[i].classList.add("active");
+    } else {
+      slide.classList.remove("active");
+      buttons[i].classList.remove("active");
+    }
+  });
+}
+
+function nextSlide() {
+  currentSlide = (currentSlide + 1) % slides.length;
+  showSlide(currentSlide);
+}
+
+// Automatically change slides every 5 seconds (5000 milliseconds)
+setInterval(nextSlide, 5000);
+
+// Initialize the first slide
+showSlide(currentSlide);
