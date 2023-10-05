@@ -40,6 +40,63 @@
     border: none;
     margin: 20px auto 32px auto;
   }
+  .choose_us {
+    width: 100%;
+    height: auto;
+    background-color: #00421626;
+  }
+  .choose-us-head {
+    color: #00541c;
+    padding-top: 72px;
+    text-align: center;
+  }
+  .choose_us_para {
+    text-align: center !important;
+  }
+  .report-head {
+    color: #00541c;
+    margin: 148px auto 48px auto;
+    width: 968px;
+  }
+  .explore_btn {
+    width: 437px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 7px, auto, 7px, auto;
+    gap: 10px;
+    border: none;
+    background-color: #00541c;
+    color: #ffffff;
+    margin: 40px auto 148px auto;
+  }
+  .explore_text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.24px;
+  }
+  .choose_us_card {
+    margin: 0 auto;
+    width: 72px;
+    height: 72px;
+    border-radius: 10px;
+    padding: 12px;
+    gap: 10px;
+    color: #3a3a3a;
+    /* margin: 32px auto 20px auto; */
+  }
+  .choose_us_card {
+    background-color: #00993329;
+  }
+  .choose_us_card_1 {
+    margin-top: 48px;
+    width: 227px;
+    text-align: center;
+    margin: 15 auto !important;
+  }
+  .coulumn-card {
+    display: flex !important;
+    justify-content: center !important;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -55,6 +112,58 @@
     height: 658px;
     background-color: #021f0b;
     padding: 89px 0px 113px 0px;
+  }
+  .choose_us {
+    width: 100%;
+    height: auto;
+    background-color: #00421626;
+  }
+  .choose-us-head {
+    color: #00541c;
+    padding-top: 72px;
+    text-align: left;
+  }
+  .choose_us_para {
+    text-align: center !important;
+  }
+  .report-head {
+    color: #00541c;
+    margin: 148px auto 48px auto;
+
+    width: 968px;
+  }
+  .explore_btn {
+    width: 437px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 7px, auto, 7px, auto;
+    gap: 10px;
+    border: none;
+    background-color: #00541c;
+    color: #ffffff;
+    margin: 40px auto 148px auto;
+  }
+  .explore_text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.24px;
+  }
+  .choose_us_card {
+    width: 72px;
+    height: 72px;
+    border-radius: 10px;
+    padding: 12px;
+    gap: 10px;
+    color: #3a3a3a;
+    /* margin: 32px auto 20px auto; */
+  }
+  .choose_us_card {
+    background-color: #00993329;
+  }
+  .choose_us_card_1 {
+    margin-top: 48px;
+    width: 227px;
+    text-align: left;
   }
 }
 
