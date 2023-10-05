@@ -129,7 +129,9 @@
   .details p {
     font-size: 14px;
   }
-
+  .graph_head {
+    text-align: center;
+  }
   /* .graph_head {
     text-align: center !important;
   } */
@@ -325,6 +327,41 @@
   }
   .my_graph {
     height: 200px;
+  }
+  .partner {
+    width: 100%;
+    height: auto;
+    background-color: #71ffa021;
+  }
+  .partner-content-1 {
+    padding-top: 100px;
+    /* padding-left: 56px !important; */
+  }
+  .partner-content {
+  }
+  .partner-head-1 {
+    width: auto !important;
+    text-align: center;
+    margin: 0 auto;
+    color: #00541c;
+  }
+  .partner-text {
+    width: 550px;
+  }
+  .parntner-btn {
+    background-color: #00541c;
+    width: 215px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 13px, 50px, 13px, 50px;
+    gap: 10px;
+    border: none;
+    color: #ffffff;
+  }
+  .parntner-btn-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.24px;
   }
 }
 

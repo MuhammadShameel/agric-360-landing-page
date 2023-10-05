@@ -317,12 +317,23 @@
 /* Partner Section  */
 
 /* Footer  */
+
 .footer-head {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
 }
-
+.footer {
+  font-family: sans-serif;
+  background-color: #00541c;
+}
+.Another-list {
+  line-height: 28px;
+  font-size: 13px;
+}
+.adress {
+  font-size: 15px;
+}
 /* calender  */
 
 .carousel-indicators li {
