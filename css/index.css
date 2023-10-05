@@ -209,8 +209,11 @@
   background-color: #00541c;
   color: #ffffff;
   margin: 40px auto 148px auto;
+  display: flex;
+  justify-content: center;
 }
 .explore_text {
+  margin-top: 18px;
   font-size: 20px;
   font-weight: 700;
   line-height: 27.24px;

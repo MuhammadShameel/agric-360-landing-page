@@ -97,6 +97,42 @@
     display: flex !important;
     justify-content: center !important;
   }
+  .explore_btn {
+    width: 237px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 7px, auto, 7px, auto;
+    gap: 10px;
+    border: none;
+    background-color: #00541c;
+    color: #ffffff;
+    margin: 40px auto 148px auto;
+    display: flex;
+    justify-content: center;
+  }
+  .explore_text {
+    margin-top: 18px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.24px;
+  }
+  .choose_us_mobile {
+    display: block;
+  }
+  .my_graph {
+    height: 100% !important;
+  }
+  .weather h1 {
+    font-size: 26px !important;
+  }
+
+  .details p {
+    font-size: 14px;
+  }
+
+  /* .graph_head {
+    text-align: center !important;
+  } */
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -200,6 +236,9 @@
     font-size: 16px;
     line-height: 27.24px;
   }
+  .my_graph {
+    height: 230px !important;
+  }
   /* solution */
 }
 
@@ -271,6 +310,9 @@
     width: 400px;
     color: #ffffff;
   }
+  .my_graph {
+    height: 200px;
+  }
 }
 
 /* // X-Large devices (large desktops, less than 1400px) */
@@ -280,6 +322,9 @@
   }
   .hide-xl {
     display: none;
+  }
+  .my_graph {
+    height: 200px;
   }
 }
 
