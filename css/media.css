@@ -156,6 +156,13 @@
     width: 100%;
     text-align: center;
   }
+  .partner-head-1 {
+    width: 100% !important;
+    color: #00541c;
+  }
+  .partner-text {
+    width: 100%;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -233,6 +240,10 @@
     margin-top: 35px;
     margin-bottom: 40px;
     border: none;
+  }
+  .partner-head-1 {
+    width: 100%;
+    color: #00541c;
   }
 }
 
