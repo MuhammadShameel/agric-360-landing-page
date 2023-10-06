@@ -319,9 +319,9 @@
 /* Footer  */
 
 .footer-head {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 24px !important;
 }
 .footer {
   font-family: sans-serif;
