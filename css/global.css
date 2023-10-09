@@ -4,15 +4,22 @@ body {
 }
 
 h1 {
-  font-size: 56px !important;
+  font-size: 60px !important;
   line-height: 70.31px !important;
   font-weight: 700 !important;
   font: Roboto !important;
+  font: var(--roboto-h1-size);
 }
 h2 {
   font-size: 42px !important;
   line-height: 56.25px !important;
   font-weight: 500 !important;
+  font: Roboto !important;
+}
+h3 {
+  font-size: 32px !important;
+  font-weight: 500 !important;
+  line-height: 37.5px !important;
   font: Roboto !important;
 }
 h4 {

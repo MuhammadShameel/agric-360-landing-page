@@ -45,24 +45,27 @@
   width: 367px;
   height: 480px;
   position: absolute;
-  top: 180px;
+  top: 130px;
   left: 750px;
 }
 .vertical_tab {
-  width: 455px;
-  height: 280px;
+  width: 435px;
+  height: 260px;
   position: relative;
-  top: 187px;
-  left: 55px;
+  top: 155px;
+  left: 95px;
 }
 .hero_section_head {
-  width: 650px;
+  width: 650px !important;
   color: #ffffff;
+  font-weight: 700 !important;
+  font-size: 56px !important;
 }
 .hero_section_para {
   margin: 16px 0px 0px 0px;
-  width: 600px;
+  width: 600px !important;
   color: #ffffff;
+  font-size: 32px !important;
 }
 .getStarted {
   width: 235px;
