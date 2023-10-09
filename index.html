@@ -61,34 +61,49 @@
                 <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    aria-expanded="false" aria-label="Toggle navigation" tabindex="0">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        const navbarToggler = document.querySelector(".navbar-toggler");
+                        const navbarCollapse = document.querySelector(".navbar-collapse");
+
+                        navbarToggler.addEventListener("focus", function () {
+                            navbarCollapse.classList.add("show");
+                        });
+
+                        navbarToggler.addEventListener("blur", function () {
+                            navbarCollapse.classList.remove("show");
+                        });
+                    });
+                </script>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3">
                         <li class="nav-item agric-nav-font">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link text-center" href="#">Home</a>
                         </li>
                         <li class="nav-item agric-nav-font">
-                            <a class="nav-link" href="#">Solutions</a>
+                            <a class="nav-link text-center" href="#">Solutions</a>
                         </li>
                         <li class="nav-item agric-nav-font">
-                            <a class="nav-link" href="#">Book/Hire</a>
+                            <a class="nav-link text-center" href="#">Book/Hire</a>
                         </li>
                         <li class="nav-item agric-nav-font">
-                            <a class="nav-link" href="#">e-learning</a>
+                            <a class="nav-link text-center" href="#">e-learning</a>
                         </li>
                         <li class="nav-item agric-nav-font">
-                            <a class="nav-link" href="#">Co-operatives</a>
+                            <a class="nav-link text-center" href="#">Co-operatives</a>
                         </li>
                         <li class="nav-item agric-nav-font">
-                            <a class="nav-link" href="#">About-us</a>
+                            <a class="nav-link text-center" href="#">About-us</a>
                         </li>
 
 
 
                     </ul>
-                    <form class="d-flex" role="search">
+                    <form class="d-flex justify-content-center  " role="search">
                         <button class="sign-up me-1 " type="submit"><span class="sign-up-text">Sign
                                 Up</span></button>
                         <button class="sign-in" type="submit"><span class="sign-in-text">Sign In</span></button>
@@ -290,8 +305,7 @@
                     <div class="choose_us_card_1 d-flex flex-column">
                         <img src="./assets/images/expertise.png" width="72px" height="72px" alt="...">
                         <h5 style="margin-top: 16px;">Expertise</h5>
-                        <p class="normal_font" style="margin: 16px auto 0px auto;width: 270px;">We provide market
-                            access, funding,
+                        <p class="normal_font" style="margin-top: 10px;width: 270px;">We provide market access, funding,
                             assets and
                             services
                             that saves time and
@@ -335,7 +349,7 @@
         data-aos-anchor-placement="top-center">
         <div class="container">
             <h2 class="choose-us-head">Why You Should Choose Us</h2>
-            <div class="normal_font solution-text">
+            <div class="normal_font solution-text mb-5">
                 Agric360 aims to promote agricultural growth, food security, economic development, and poverty
                 reduction.
             </div>
@@ -661,16 +675,16 @@
 
                     <ul class="list-unstyled  mb-0">
 
-                        <li class="text-white mb-2">Staff</li>
+                        <li class="text-white mb-3">Staff</li>
 
 
-                        <li class="text-white text-sm mb-2">Agent</li>
+                        <li class="text-white text-sm mb-3">Agent</li>
 
 
-                        <li class="text-white text-sm mb-2  ">Partner</li>
+                        <li class="text-white text-sm mb-3  ">Partner</li>
 
 
-                        <li class="text-white text-sm mb-2">Admin</li>
+                        <li class="text-white text-sm mb-3">Admin</li>
 
                     </ul>
                 </div>
@@ -678,25 +692,25 @@
 
                 <!--Grid column-->
                 <div class="col-6 col-lg-2 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-white footer-head  mb-2">Solutions</h5>
+                    <h5 class="text-white footer-head  mb-3">Solutions</h5>
 
                     <ul class="list-unstyled">
 
-                        <li class="text-white text-sm mb-2">Access training</li>
+                        <li class="text-white text-sm mb-3">Access training</li>
 
 
-                        <li class="text-white text-sm mb-2">Access market</li>
+                        <li class="text-white text-sm mb-3">Access market</li>
 
 
-                        <li class="text-white text-sm mb-2">Access finance</li>
+                        <li class="text-white text-sm mb-3">Access finance</li>
 
 
-                        <li class="text-white text-sm mb-2">Extension services</li>
+                        <li class="text-white text-sm mb-3">Extension services</li>
 
 
-                        <li class="text-white text-sm mb-2">Aggregation service</li>
+                        <li class="text-white text-sm mb-3">Aggregation service</li>
 
-                        <li class="text-white text-sm mb-2">Consultancy</li>
+                        <li class="text-white text-sm mb-3">Consultancy</li>
 
                     </ul>
                 </div>
@@ -708,13 +722,13 @@
 
                     <ul class="list-unstyled mb-0">
 
-                        <li class="text-white text-sm mb-2">Knowledge Base</li>
+                        <li class="text-white text-sm mb-3">Knowledge Base</li>
 
-                        <li class="text-white text-sm mb-2">Metrics</li>
+                        <li class="text-white text-sm mb-3">Metrics</li>
 
-                        <li class="text-white text-sm mb-2">Tickets/Support</li>
+                        <li class="text-white text-sm mb-3">Tickets/Support</li>
 
-                        <li class="text-white text-sm mb-2">Blog & News</li>
+                        <li class="text-white text-sm mb-3">Blog & News</li>
 
                     </ul>
                 </div>
@@ -722,20 +736,20 @@
 
                 <!--Grid column-->
                 <div class="col-6 col-lg-2 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-white footer-head  mb-2">Contact Us</h5>
+                    <h5 class="text-white footer-head  mb-3">Contact Us</h5>
 
                     <ul class="list-unstyled">
 
-                        <li class="text-white text-sm mb-2">08038109004</li>
+                        <li class="text-white text-sm mb-3">08038109004</li>
 
-                        <li class="text-white text-sm mb-2 Footer-2">info@agric360.com.ng
+                        <li class="text-white text-sm mb-3 Footer-2">info@agric360.com.ng
 
                         </li>
-                        <li class="text-white text-sm mb-2 Footer-2">Head Office: Km 13, Abuja-Keffi Way, Abuja.
+                        <li class="text-white text-sm mb-3 Footer-2">Head Office: Km 13, Abuja-Keffi Way, Abuja.
                             Makurdi
 
                         </li>
-                        <li class="text-white text-sm mb-2 pt-1"> Branch: No 14, New Otukpo Road, Makurdi</li>
+                        <li class="text-white text-sm mb-3 pt-1"> Branch: No 14, New Otukpo Road, Makurdi</li>
 
 
 
@@ -744,15 +758,15 @@
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-6 col-lg-2 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-white footer-head mb-2">Legal</h5>
+                    <h5 class="text-white footer-head mb-3">Legal</h5>
 
                     <ul class="list-unstyled">
 
-                        <li class="text-white text-sm mb-2">Privacy Policy</li>
+                        <li class="text-white text-sm mb-3">Privacy Policy</li>
 
-                        <li class="text-white text-sm mb-2">Terms and Conditions</li>
+                        <li class="text-white text-sm mb-3">Terms and Conditions</li>
 
-                        <li class="text-white text-sm mb-2">Cookies</li>
+                        <li class="text-white text-sm mb-3">Cookies</li>
 
 
                     </ul>
@@ -760,19 +774,19 @@
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-6 col-lg-2 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-white footer-head mb-2">Social Media</h5>
+                    <h5 class="text-white footer-head mb-3">Social Media</h5>
 
                     <ul class="list-unstyled">
 
-                        <li class="text-white text-sm mb-2">Facebook</li>
+                        <li class="text-white text-sm mb-3">Facebook</li>
 
-                        <li class="text-white text-sm mb-2">Instagram</li>
+                        <li class="text-white text-sm mb-3">Instagram</li>
 
-                        <li class="text-white text-sm mb-2">Twitter</li>
+                        <li class="text-white text-sm mb-3">Twitter</li>
 
-                        <li class="text-white text-sm mb-2">Youtube</li>
+                        <li class="text-white text-sm mb-3">Youtube</li>
 
-                        <li class="text-white text-sm mb-2">Linkedin</li>
+                        <li class="text-white text-sm mb-3">Linkedin</li>
 
                     </ul>
                 </div>
