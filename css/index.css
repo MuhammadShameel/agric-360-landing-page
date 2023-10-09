@@ -56,16 +56,13 @@
   left: 95px;
 }
 .hero_section_head {
-  width: 650px !important;
+  width: 650px;
   color: #ffffff;
-  font-weight: 700 !important;
-  font-size: 56px !important;
 }
 .hero_section_para {
   margin: 16px 0px 0px 0px;
-  width: 600px !important;
+  width: 600px;
   color: #ffffff;
-  font-size: 32px !important;
 }
 .getStarted {
   width: 235px;
