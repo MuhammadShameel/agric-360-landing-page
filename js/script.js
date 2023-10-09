@@ -77,3 +77,7 @@ setInterval(nextSlide, 5000);
 
 // Initialize the first slide
 showSlide(currentSlide);
+
+AOS.init({
+  duration: 1200,
+});
