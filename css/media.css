@@ -424,17 +424,17 @@
     padding: 110px 0px 113px 0px;
   }
   .horizontal_tab {
-    width: 227px;
-    height: 280px;
+    width: 300px;
+    height: 380px;
     position: absolute;
     top: 250px;
-    left: 700px;
+    left: 670px;
   }
   .vertical_tab {
-    width: 280px;
-    height: 170px;
+    width: 350px;
+    height: 200px;
     position: relative;
-    top: 167px;
+    top: 215px;
     left: 55px;
   }
   .hero_section_head {
@@ -474,7 +474,7 @@
 }
 
 /* // X-Large devices (large desktops, less than 1400px) */
-@media (min-width: 1199.98px) and (max-width: 1399.98px) {
+@media (min-width: 1199.98px) and (max-width: 2560px) {
   .show-xl {
     display: block;
   }
@@ -539,6 +539,20 @@
     color: #ffffff;
     font-size: 32px !important;
   }
+  .horizontal_tab {
+    width: 367px;
+    height: 480px;
+    position: absolute;
+    top: 130px;
+    left: 750px;
+  }
+  .vertical_tab {
+    width: 435px;
+    height: 260px;
+    position: relative;
+    top: 155px;
+    left: 95px;
+  }
 }
 
 /* // XX-Large devices (larger desktops) */
@@ -550,5 +564,21 @@
   .nav-link {
     font-size: 11px !important;
     gap: 0 !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1241px) {
+  .horizontal_tab {
+    width: 367px;
+    height: 480px;
+    position: absolute;
+    top: 130px;
+    left: 700px;
+  }
+  .vertical_tab {
+    width: 435px;
+    height: 260px;
+    position: relative;
+    top: 155px;
+    left: 55px;
   }
 }
