@@ -218,6 +218,12 @@
     color: #ffffff;
     font-size: 22px !important;
   }
+  .hero-section-desktop {
+    width: 100%;
+    height: 658px;
+    background-color: #021f0b;
+    padding: 119px 0px 113px 0px;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
