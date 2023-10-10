@@ -1,4 +1,25 @@
 /* q4eavbar section  */
+
+/* Navbar toggle button */
+.navbar-toggler-icon {
+  background-color: #fff; /* Change the color of the toggle button icon */
+  border-radius: 4px; /* Rounded corners for the toggle button icon */
+  transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+/* Navbar menu links */
+.navbar-nav .nav-link {
+  color: #333; /* Link text color */
+  transition: color 0.3s ease; /* Add a smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00541c; /* Change the link color on hover */
+  background-color: #eee; /* Add a background color on hover */
+  border-radius: 4px; /* Rounded corners for the links */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Add smooth transitions */
+}
+
 .sign-up {
   width: 135px;
   height: 50px;
